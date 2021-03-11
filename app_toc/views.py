@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def tocview(request):
+	return render(request, "toc.html", {'a':'7'})
